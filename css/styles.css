@@ -1,0 +1,21 @@
+:root {
+    --main-color-text: #292929;
+    --color-hover: #FFA081;
+}
+
+body {
+    color: var(--main-color-text);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: var(--main-color-text);
+}
+
+a:hover {
+    color: var(--color-hover);
+    
+}
