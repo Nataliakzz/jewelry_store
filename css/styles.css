@@ -93,6 +93,10 @@ a:hover {
 .main-section{
     padding-top: 252px;
     padding-bottom: 52px;
+    background-image: url('../images/woman-in-white-shirt-wearing-a-necklace-with-square-pieces.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
 }
 
 .main-title {
@@ -124,6 +128,8 @@ a:hover {
 .unique-watch-text {
     margin-bottom: 36px;
 }
+
+
 
 .ideal-section-container {
     display: flex;
@@ -198,4 +204,10 @@ a:hover {
 
 main .link {
     font-weight: 600;
+}
+
+.footer {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-color: var(--background-color-accent);
 }
