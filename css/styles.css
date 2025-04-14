@@ -22,6 +22,7 @@
 :root {
     --main-color-text: #292929;
     --color-hover: #FFA081;
+    --background-color-accent: #F8F7F6;
 }
 
 * {
@@ -39,6 +40,8 @@ body {
 
 ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 a {
@@ -55,6 +58,29 @@ a:hover {
     width: 100%;
     max-width: 1140px;
     margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.header-navigation {
+    display: flex;
+    flex-grow: 1;
+    gap: 64px;
+    align-items: center;
+}
+
+.header-nav-menu {
+    display: flex;
+    gap: 28px;
+}
+
+.header-icons {
+    display: flex;
+    gap: 36px;
 }
 
 .title {
@@ -99,6 +125,10 @@ a:hover {
     margin-bottom: 36px;
 }
 
+.ideal-section-container {
+    display: flex;
+}
+
 .ideal-section-title {
     margin-bottom: 28px;
     padding-top: 118px;
@@ -108,13 +138,28 @@ a:hover {
     margin-bottom: 36px;
 }
 
-.bestsellers-title {
+.bestsellers-section {
+    padding-bottom: 150px;
+}
+
+.bestsellers-section-title {
     margin-bottom: 48px;
+}
+
+.bestsellers-section-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .info-text {
     line-height: 2.1;
     text-align: left;
+}
+
+.swiss-essence-section {
+    padding-top: 0;
+    background-color: var(--background-color-accent);
 }
 
 .swiss-essence-title {
@@ -133,6 +178,10 @@ a:hover {
 
 .blog-title {
     margin-bottom: 60px;
+}
+
+.blog-section-list {
+    display: flex;
 }
 
 .card-image {
