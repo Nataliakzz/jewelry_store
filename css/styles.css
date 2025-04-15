@@ -21,6 +21,7 @@
 
 :root {
     --main-color-text: #292929;
+    --accent-color-text: #ADADAD;
     --color-hover: #FFA081;
     --background-color-accent: #F8F7F6;
 }
@@ -158,24 +159,41 @@ a:hover {
     gap: 30px;
 }
 
-.info-text {
-    line-height: 2.1;
-    text-align: left;
+.bestsellers-section-link {
+    text-align: center;
 }
 
 .swiss-essence-section {
     padding-top: 0;
+}
+
+.swiss-essence-section-container {
     background-color: var(--background-color-accent);
+    padding: 68px 0;
+    margin-bottom: 30px;
 }
 
 .swiss-essence-title {
     margin-bottom: 16px;
-    padding-top: 68px;
+    text-align: center;
 }
 
 .swiss-essence-section-text {
+    max-width: 610px;
     text-align: center;
-    margin-bottom: 16px;
+    margin: 0 auto 16px;
+}
+
+.swiss-essence-section-link {
+    text-align: center;
+}
+
+.swiss-essence-section-image {
+    height: 380px;
+    background-image: url('../images/many-chains-lie-on-the-bedspread.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .blog-section {
@@ -184,10 +202,12 @@ a:hover {
 
 .blog-title {
     margin-bottom: 60px;
+    text-align: center;
 }
 
 .blog-section-list {
     display: flex;
+    gap: 30px;
 }
 
 .card-image {
@@ -196,6 +216,7 @@ a:hover {
 
 .card-date {
     margin-bottom: 10px;
+    color: var(--accent-color-text);
 }
 
 .card-text {
@@ -204,10 +225,20 @@ a:hover {
 
 main .link {
     font-weight: 600;
+    display: block;
 }
 
 .footer {
     padding-top: 70px;
     padding-bottom: 40px;
     background-color: var(--background-color-accent);
+}
+
+.info-text {
+    line-height: 2.1;
+    text-align: left;
+}
+
+.middle {
+    padding-top: 30px;
 }
