@@ -79,9 +79,18 @@ a:hover {
     gap: 28px;
 }
 
-.header-icons {
+.header-icons-list {
     display: flex;
     gap: 36px;
+}
+
+.header-icon-item {
+    height: 20px;
+    width: 20px;
+}
+
+.header-icon-item:hover {
+    fill: var(--color-hover);
 }
 
 .title {
@@ -113,8 +122,12 @@ a:hover {
 .main-section-text {
     line-height: 1.8;
     font-size: 18px;
-    text-align: center;
+    padding-left: 44px;    
     margin-bottom: 42px;
+}
+
+.main-section-link {
+    padding-left: 44px;
 }
 
 .section{
@@ -182,7 +195,7 @@ a:hover {
 }
 
 .bestsellers-section-link {
-    text-align: center;
+    margin: 0 auto;
 }
 
 .swiss-essence-section {
@@ -207,7 +220,7 @@ a:hover {
 }
 
 .swiss-essence-section-link {
-    text-align: center;
+    margin: 0 auto;
 }
 
 .swiss-essence-section-image {
@@ -232,11 +245,33 @@ a:hover {
     gap: 30px;
 }
 
-.card-image {
-    margin-bottom: 20px;
+.card-list-item {
+    cursor: pointer;
+}
+
+.container-card-overlay {
+    position: relative;
+    overflow: hidden;
+}
+
+.card__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--accent-color-text);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.card-list-item:hover .card__overlay {
+    opacity: 0.5;
 }
 
 .card-date {
+    margin-top: 20px;
     margin-bottom: 10px;
     color: var(--accent-color-text);
 }
@@ -248,6 +283,7 @@ a:hover {
 
 main .link {
     font-weight: 600;
+    width: fit-content;
     display: block;
 }
 

@@ -24,15 +24,27 @@
               <li><a class="link nav-link" href="#">Instant Quote</a></li>
             </ul>
           </nav>
-          <ul class="header-icons">
+          <ul class="header-icons-list">
             <li>
-              <a href="#">1<!-- icons --></a>
+              <a href="#">
+                <svg class="header-icon-item">
+                  <use href="./images/icons.svg#icon-heart"></use>
+                </svg>
+              </a>
             </li>
             <li>
-              <a href="#">2<!-- icons --></a>
+              <a href="#">
+                <svg class="header-icon-item">
+                  <use href="./images/icons.svg#icon-shopping-bag"></use>
+                </svg>
+              </a>
             </li>
             <li>
-              <a href="#">3<!-- icons --></a>
+              <a href="#">
+                <svg class="header-icon-item">
+                  <use href="./images/icons.svg#icon-user"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
@@ -46,7 +58,7 @@
             <p class="main-section-text">
               Cubic zirconias avails in gold chain
             </p>
-            <a class="link" href="#">View</a>
+            <a class="link main-section-link" href="#">View</a>
           </div>
         </div>
       </section>
@@ -102,43 +114,55 @@
         <div class="container">
           <h2 class="title bestsellers-section-title">Our Bestsellers</h2>
           <ul class="bestsellers-section-list">
-            <li>
+            <li class="card-list-item">
               <article>
-                <img
-                  class="card-image"
-                  src="./images/large-gold-chain-around-the-neck.jpg"
-                  alt="Large gold chain around the neck"
-                />
+                <div class="container-card-overlay">
+                  <img
+                    class="card-image"
+                    src="./images/large-gold-chain-around-the-neck.jpg"
+                    alt="Large gold chain around the neck"
+                  />
+                  <div class="card__overlay"></div>
+                </div>
                 <p class="card-text">Gold chunky paperclip link chain</p>
               </article>
             </li>
-            <li>
+            <li class="card-list-item">
               <article>
-                <img
-                  class="card-image"
-                  src="./images/two-cross-rings-on-fingers.jpg"
-                  alt="Two cross rings on fingers"
-                />
+                <div class="container-card-overlay">
+                  <img
+                    class="card-image"
+                    src="./images/two-cross-rings-on-fingers.jpg"
+                    alt="Two cross rings on fingers"
+                  />
+                  <div class="card__overlay"></div>
+                </div>
                 <p class="card-text">Sterling silver criss cross ring</p>
               </article>
             </li>
-            <li>
+            <li class="card-list-item">
               <article>
-                <img
-                  class="card-image"
-                  src="./images/three-gold-earrings-on-the-ear.jpg"
-                  alt="Three gold earrings on the ear"
-                />
+                <div class="container-card-overlay">
+                  <img
+                    class="card-image"
+                    src="./images/three-gold-earrings-on-the-ear.jpg"
+                    alt="Three gold earrings on the ear"
+                  />
+                  <div class="card__overlay"></div>
+                </div>
                 <p class="card-text">Ear cuff with cubic zirconias</p>
               </article>
             </li>
-            <li>
+            <li class="card-list-item">
               <article>
-                <img
-                  class="card-image"
-                  src="./images/double-chain-with-pentagonal-element.jpg"
-                  alt="Double chain with pentagonal element"
-                />
+                <div class="container-card-overlay">
+                  <img
+                    class="card-image"
+                    src="./images/double-chain-with-pentagonal-element.jpg"
+                    alt="Double chain with pentagonal element"
+                  />
+                  <div class="card__overlay"></div>
+                </div>
                 <p class="card-text">
                   Set of two gold stacking layering necklaces
                 </p>
@@ -166,35 +190,44 @@
         <div class="container">
           <h2 class="title blog-title">Journal & Blog</h2>
           <ul class="blog-section-list">
-            <li>
+            <li class="card-list-item">
               <article>
-                <img
-                  class="card-image"
-                  src="./images/double-chain-with-bee-on-a-blonde.jpg"
-                  alt="Double chain with bee on a blonde"
-                />
+                <div class="container-card-overlay">
+                  <img
+                    class="card-image"
+                    src="./images/double-chain-with-bee-on-a-blonde.jpg"
+                    alt="Double chain with bee on a blonde"
+                  />
+                  <div class="card__overlay"></div>
+                </div>
                 <p class="card-date">26.08.2020</p>
                 <p class="card-text">What Are the Types of Watch Movements?</p>
               </article>
             </li>
-            <li class="middle">
+            <li class="middle card-list-item">
               <article>
-                <img
-                  class="card-image"
-                  src="./images/double-chain-with-a-bee-on-a-brunette.jpg"
-                  alt="Double chain with a bee on a brunette"
-                />
+                <div class="container-card-overlay">
+                  <img
+                    class="card-image"
+                    src="./images/double-chain-with-a-bee-on-a-brunette.jpg"
+                    alt="Double chain with a bee on a brunette"
+                  />
+                  <div class="card__overlay"></div>
+                </div>
                 <p class="card-date">26.08.2020</p>
                 <p class="card-text">What Are the Types of Watch Movements?</p>
               </article>
             </li>
-            <li>
+            <li class="card-list-item">
               <article>
-                <img
-                  class="card-image"
-                  src="./images/blonde-with-a-thin-double-chain-earring-in-her-ear.jpg"
-                  alt="Blonde with a thin double chain earring in her ear"
-                />
+                <div class="container-card-overlay">
+                  <img
+                    class="card-image"
+                    src="./images/blonde-with-a-thin-double-chain-earring-in-her-ear.jpg"
+                    alt="Blonde with a thin double chain earring in her ear"
+                  />
+                  <div class="card__overlay"></div>
+                </div>
                 <p class="card-date">26.08.2020</p>
                 <p class="card-text">What Are the Types of Watch Movements?</p>
               </article>
